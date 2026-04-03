@@ -1,0 +1,154 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+ 
+ html, body {
+   @apply h-screen overflow-hidden m-0 p-0;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .no-scrollbar::-webkit-scrollbar {
+   display: none;
+ }
+ .no-scrollbar {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+ }
+
+/* Custom styles for react-simple-keyboard */
+.simple-keyboard {
+    @apply bg-cream dark:bg-charcoal-900 border-t-2 border-charcoal/20 dark:border-cream-light/20;
+}
+
+.simple-keyboard .hg-button {
+    @apply bg-cream-light dark:bg-charcoal-dark text-charcoal-dark dark:text-white shadow-md rounded-md border-b-4 border-charcoal/20 dark:border-charcoal-900;
+    font-family: 'Nunito', sans-serif;
+    height: 50px;
+}
+
+.simple-keyboard .hg-button:active {
+    @apply transform scale-95 border-b-2;
+}
+
+.simple-keyboard .hg-button.hg-function_button {
+    @apply bg-charcoal-light/30 dark:bg-charcoal-dark/50;
+}
+
+.simple-keyboard .hg-button.hg-button-bksp,
+.simple-keyboard .hg-button.hg-button-tab,
+.simple-keyboard .hg-button.hg-button-caps,
+.simple-keyboard .hg-button.hg-button-shift,
+.simple-keyboard .hg-button.hg-button-space {
+    @apply bg-charcoal-light/50 dark:bg-charcoal-dark/80;
+}
+
+.simple-keyboard .hg-button.hg-button-enter {
+    @apply bg-emerald hover:bg-emerald-dark text-white;
+}
+
+/* === Global Responsive Utilities === */
+
+/* Thin scrollbar for horizontal nav bars */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.15) transparent;
+}
+.scrollbar-thin::-webkit-scrollbar {
+  height: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+  border-radius: 2px;
+}
+
+/* Overflow-x-auto table wrapper */
+.responsive-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure minimum 44px touch targets on mobile */
+@media (max-width: 640px) {
+  button, a, [role="button"] {
+    min-height: 36px;
+  }
+}
+
+/* === Premium Customer Display Animations === */
+
+@keyframes confetti {
+  0% { transform: translateY(0) rotate(0); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+.animate-confetti { animation: confetti linear infinite; }
+
+@keyframes slideInTop {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-in-top { animation: slideInTop 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+@keyframes slideInRight {
+  from { transform: translateX(40px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.animate-slide-in-right { animation: slideInRight 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+@keyframes kenBurns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+.animate-ken-burns { animation: kenBurns 8s ease-out forwards; }
+
+/* Blob Animation for Aurora Background */
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(40px, -60px) scale(1.2); }
+  66% { transform: translate(-30px, 30px) scale(0.8); }
+}
+.animate-blob { animation: blob 10s infinite alternate cubic-bezier(0.45, 0, 0.55, 1); }
+
+@keyframes tilt {
+  0%, 100% { transform: rotate3d(0); }
+  25% { transform: rotate3d(0.5, 1, 0, 2deg); }
+  75% { transform: rotate3d(-0.5, -1, 0, 2deg); }
+}
+.animate-tilt { animation: tilt 8s infinite alternate ease-in-out; }
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(16, 185, 129, 0.5); }
+}
+.animate-glow { animation: glow 4s infinite ease-in-out; }
+
+/* Utility Classes */
+.glass-morphism {
+  @apply backdrop-blur-xl border border-white/20 shadow-2xl;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dark .glass-morphism {
+  background: rgba(15, 23, 42, 0.3);
+}
+
+.text-glow {
+  text-shadow: 0 0 15px currentColor;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.5);
+}
+
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-4000 { animation-delay: 4s; }
+.animate-pulse-slow { animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; }

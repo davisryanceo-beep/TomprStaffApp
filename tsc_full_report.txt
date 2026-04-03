@@ -1,0 +1,134 @@
+﻿App.tsx(3,33): error TS2307: Cannot find module './components/Common/GlobalErrorBoundary' or its corresponding type declarations.
+components/Admin/EODReportsView.tsx(218,89): error TS2322: Type '{ children: Element; variant: "ghost"; size: "sm"; onClick: () => void; iconOnly: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps'.
+  Property 'iconOnly' does not exist on type 'IntrinsicAttributes & ButtonProps'.
+components/Admin/LeaveManagement.tsx(19,49): error TS2345: Argument of type '{ status: "Approved" | "Rejected"; responseNote: string; }' is not assignable to parameter of type '"Approved" | "Rejected"'.
+components/Admin/OrderManagement.tsx(121,21): error TS2322: Type '{ label: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; leftIcon: Element; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'leftIcon' does not exist on type 'IntrinsicAttributes & InputProps'.
+components/Admin/StoreSettings.tsx(170,33): error TS2322: Type '{ label: string; type: "number"; min: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+components/Admin/StoreSettings.tsx(178,33): error TS2322: Type '{ label: string; type: "number"; min: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+components/Admin/StoreSettings.tsx(186,37): error TS2322: Type '{ label: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+components/Admin/StoreSettings.tsx(271,25): error TS2322: Type '{ type: "number"; label: string; helperText: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+components/Cashier/EndOfDayReportModal.tsx(198,20): error TS2322: Type '{ children: string; jsx: true; }' is not assignable to type 'DetailedHTMLProps<StyleHTMLAttributes<HTMLStyleElement>, HTMLStyleElement>'.
+  Property 'jsx' does not exist on type 'DetailedHTMLProps<StyleHTMLAttributes<HTMLStyleElement>, HTMLStyleElement>'.
+components/Cashier/OnlineMenuModal.tsx(77,29): error TS2322: Type '"success" | "secondary"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+  Type '"success"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+components/Cashier/OrderSummary.tsx(282,67): error TS2322: Type '"outline"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+components/Cashier/PaymentSuccessStampModal.tsx(67,53): error TS2322: Type '"outline"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+contexts/AuthContext.tsx(92,125): error TS2353: Object literal may only specify known properties, and 'reloadData' does not exist in type 'AuthContextType'.
+mobile/App.tsx(52,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: Omit<DefaultRouterOptions<string> & { children: ReactNode; layout?: (props: { state: StackNavigationState<ParamListBase>; navigation: NavigationHelpers<...>; descriptors: Record<...>; children: ReactNode; }) => ReactElement<...>; ... 4 more ...; UNSTABLE_routeNamesChangeBehavior?: "firstMatch" | "lastUnhandled"; } & { ...; } & StackRouterOptions & StackNavigationConfig, "id" | ... 7 more ... | "UNSTABLE_routeNamesChangeBehavior"> & DefaultRouterOptions<...> & { ...; } & { ...; }, context?: any): string | ... 6 more ... | Component<...>', gave the following error.
+    Property 'id' is missing in type '{ children: Element[]; initialRouteName: string; }' but required in type '{ id: string; }'.
+  Overload 2 of 2, '(props: Omit<DefaultRouterOptions<string> & { children: ReactNode; layout?: (props: { state: StackNavigationState<ParamListBase>; navigation: NavigationHelpers<...>; descriptors: Record<...>; children: ReactNode; }) => ReactElement<...>; ... 4 more ...; UNSTABLE_routeNamesChangeBehavior?: "firstMatch" | "lastUnhandled"; } & { ...; } & StackRouterOptions & StackNavigationConfig, "id" | ... 7 more ... | "UNSTABLE_routeNamesChangeBehavior"> & DefaultRouterOptions<...> & { ...; } & { ...; }): string | ... 6 more ... | Component<...>', gave the following error.
+    Property 'id' is missing in type '{ children: Element[]; initialRouteName: string; }' but required in type '{ id: string; }'.
+mobile/app/(tabs)/_layout.tsx(4,27): error TS2307: Cannot find module '@/components/haptic-tab' or its corresponding type declarations.
+mobile/app/(tabs)/_layout.tsx(5,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+mobile/app/(tabs)/_layout.tsx(6,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+mobile/app/(tabs)/_layout.tsx(7,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(4,29): error TS2307: Cannot find module '@/components/ui/collapsible' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(5,30): error TS2307: Cannot find module '@/components/external-link' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(6,32): error TS2307: Cannot find module '@/components/parallax-scroll-view' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(7,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(8,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(9,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+mobile/app/(tabs)/explore.tsx(10,23): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+mobile/app/(tabs)/index.tsx(4,27): error TS2307: Cannot find module '@/components/hello-wave' or its corresponding type declarations.
+mobile/app/(tabs)/index.tsx(5,32): error TS2307: Cannot find module '@/components/parallax-scroll-view' or its corresponding type declarations.
+mobile/app/(tabs)/index.tsx(6,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+mobile/app/(tabs)/index.tsx(7,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+mobile/app/_layout.tsx(6,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+mobile/app/modal.tsx(4,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+mobile/app/modal.tsx(5,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+mobile/components/parallax-scroll-view.tsx(10,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+mobile/components/parallax-scroll-view.tsx(11,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+mobile/components/parallax-scroll-view.tsx(12,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+mobile/components/parallax-scroll-view.tsx(30,48): error TS2345: Argument of type '() => { transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to parameter of type '() => DefaultStyle'.
+  Type '{ transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to type 'DefaultStyle'.
+    Type '{ transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to type 'ImageStyle'.
+      Types of property 'transform' are incompatible.
+        Type '({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]' is not assignable to type 'string | readonly (({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; ... 4 more ...; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; }))[]'.
+          Type '({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]' is not assignable to type 'readonly (({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; }))[]'.
+            Type '{ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; }' is not assignable to type '({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; })'.
+              Type '{ translateY: number; scale?: undefined; }' is not assignable to type '({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; })'.
+                Type '{ translateY: number; scale?: undefined; }' is not assignable to type '{ matrix: AnimatableNumericValue[]; } & { rotate?: never; scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; }'.
+                  Property 'matrix' is missing in type '{ translateY: number; scale?: undefined; }' but required in type '{ matrix: AnimatableNumericValue[]; }'.
+mobile/components/themed-text.tsx(3,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+mobile/components/themed-view.tsx(3,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+mobile/components/ui/collapsible.tsx(4,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+mobile/components/ui/collapsible.tsx(5,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+mobile/components/ui/collapsible.tsx(6,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+mobile/components/ui/collapsible.tsx(7,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+mobile/components/ui/collapsible.tsx(8,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+mobile/hooks/use-theme-color.ts(6,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+mobile/hooks/use-theme-color.ts(7,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/App.tsx(3,33): error TS2307: Cannot find module './components/Common/GlobalErrorBoundary' or its corresponding type declarations.
+TomprStamp/components/Admin/EODReportsView.tsx(218,89): error TS2322: Type '{ children: Element; variant: "ghost"; size: "sm"; onClick: () => void; iconOnly: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps'.
+  Property 'iconOnly' does not exist on type 'IntrinsicAttributes & ButtonProps'.
+TomprStamp/components/Admin/LeaveManagement.tsx(19,49): error TS2345: Argument of type '{ status: "Approved" | "Rejected"; responseNote: string; }' is not assignable to parameter of type '"Approved" | "Rejected"'.
+TomprStamp/components/Admin/OrderManagement.tsx(121,21): error TS2322: Type '{ label: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; leftIcon: Element; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'leftIcon' does not exist on type 'IntrinsicAttributes & InputProps'.
+TomprStamp/components/Admin/StoreSettings.tsx(170,33): error TS2322: Type '{ label: string; type: "number"; min: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+TomprStamp/components/Admin/StoreSettings.tsx(178,33): error TS2322: Type '{ label: string; type: "number"; min: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+TomprStamp/components/Admin/StoreSettings.tsx(186,37): error TS2322: Type '{ label: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; helperText: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+TomprStamp/components/Admin/StoreSettings.tsx(271,25): error TS2322: Type '{ type: "number"; label: string; helperText: string; value: number; onChange: (e: ChangeEvent<HTMLInputElement, HTMLInputElement>) => void; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'helperText' does not exist on type 'IntrinsicAttributes & InputProps'.
+TomprStamp/components/Cashier/EndOfDayReportModal.tsx(198,20): error TS2322: Type '{ children: string; jsx: true; }' is not assignable to type 'DetailedHTMLProps<StyleHTMLAttributes<HTMLStyleElement>, HTMLStyleElement>'.
+  Property 'jsx' does not exist on type 'DetailedHTMLProps<StyleHTMLAttributes<HTMLStyleElement>, HTMLStyleElement>'.
+TomprStamp/components/Cashier/OnlineMenuModal.tsx(77,29): error TS2322: Type '"success" | "secondary"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+  Type '"success"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+TomprStamp/components/Cashier/OrderSummary.tsx(282,67): error TS2322: Type '"outline"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+TomprStamp/components/Cashier/PaymentSuccessStampModal.tsx(67,53): error TS2322: Type '"outline"' is not assignable to type '"primary" | "secondary" | "danger" | "ghost"'.
+TomprStamp/contexts/AuthContext.tsx(92,125): error TS2353: Object literal may only specify known properties, and 'reloadData' does not exist in type 'AuthContextType'.
+TomprStamp/mobile/App.tsx(52,18): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: Omit<DefaultRouterOptions<string> & { children: ReactNode; layout?: (props: { state: StackNavigationState<ParamListBase>; navigation: NavigationHelpers<...>; descriptors: Record<...>; children: ReactNode; }) => ReactElement<...>; ... 4 more ...; UNSTABLE_routeNamesChangeBehavior?: "firstMatch" | "lastUnhandled"; } & { ...; } & StackRouterOptions & StackNavigationConfig, "id" | ... 7 more ... | "UNSTABLE_routeNamesChangeBehavior"> & DefaultRouterOptions<...> & { ...; } & { ...; }, context?: any): string | ... 6 more ... | Component<...>', gave the following error.
+    Property 'id' is missing in type '{ children: Element[]; initialRouteName: string; }' but required in type '{ id: string; }'.
+  Overload 2 of 2, '(props: Omit<DefaultRouterOptions<string> & { children: ReactNode; layout?: (props: { state: StackNavigationState<ParamListBase>; navigation: NavigationHelpers<...>; descriptors: Record<...>; children: ReactNode; }) => ReactElement<...>; ... 4 more ...; UNSTABLE_routeNamesChangeBehavior?: "firstMatch" | "lastUnhandled"; } & { ...; } & StackRouterOptions & StackNavigationConfig, "id" | ... 7 more ... | "UNSTABLE_routeNamesChangeBehavior"> & DefaultRouterOptions<...> & { ...; } & { ...; }): string | ... 6 more ... | Component<...>', gave the following error.
+    Property 'id' is missing in type '{ children: Element[]; initialRouteName: string; }' but required in type '{ id: string; }'.
+TomprStamp/mobile/app/(tabs)/_layout.tsx(4,27): error TS2307: Cannot find module '@/components/haptic-tab' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/_layout.tsx(5,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/_layout.tsx(6,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/_layout.tsx(7,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(4,29): error TS2307: Cannot find module '@/components/ui/collapsible' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(5,30): error TS2307: Cannot find module '@/components/external-link' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(6,32): error TS2307: Cannot find module '@/components/parallax-scroll-view' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(7,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(8,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(9,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/explore.tsx(10,23): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/index.tsx(4,27): error TS2307: Cannot find module '@/components/hello-wave' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/index.tsx(5,32): error TS2307: Cannot find module '@/components/parallax-scroll-view' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/index.tsx(6,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+TomprStamp/mobile/app/(tabs)/index.tsx(7,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+TomprStamp/mobile/app/_layout.tsx(6,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/mobile/app/modal.tsx(4,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+TomprStamp/mobile/app/modal.tsx(5,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+TomprStamp/mobile/components/parallax-scroll-view.tsx(10,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+TomprStamp/mobile/components/parallax-scroll-view.tsx(11,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/mobile/components/parallax-scroll-view.tsx(12,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+TomprStamp/mobile/components/parallax-scroll-view.tsx(30,48): error TS2345: Argument of type '() => { transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to parameter of type '() => DefaultStyle'.
+  Type '{ transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to type 'DefaultStyle'.
+    Type '{ transform: ({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]; }' is not assignable to type 'ImageStyle'.
+      Types of property 'transform' are incompatible.
+        Type '({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]' is not assignable to type 'string | readonly (({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; ... 4 more ...; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; }))[]'.
+          Type '({ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; })[]' is not assignable to type 'readonly (({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; }))[]'.
+            Type '{ translateY: number; scale?: undefined; } | { scale: number; translateY?: undefined; }' is not assignable to type '({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; })'.
+              Type '{ translateY: number; scale?: undefined; }' is not assignable to type '({ rotate: AnimatableStringValue; } & { scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; matrix?: never; }) | ... 11 more ... | ({ ...; } & { ...; })'.
+                Type '{ translateY: number; scale?: undefined; }' is not assignable to type '{ matrix: AnimatableNumericValue[]; } & { rotate?: never; scale?: never; scaleX?: never; scaleY?: never; translateX?: never; translateY?: never; perspective?: never; rotateX?: never; rotateY?: never; rotateZ?: never; skewX?: never; skewY?: never; }'.
+                  Property 'matrix' is missing in type '{ translateY: number; scale?: undefined; }' but required in type '{ matrix: AnimatableNumericValue[]; }'.
+TomprStamp/mobile/components/themed-text.tsx(3,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+TomprStamp/mobile/components/themed-view.tsx(3,31): error TS2307: Cannot find module '@/hooks/use-theme-color' or its corresponding type declarations.
+TomprStamp/mobile/components/ui/collapsible.tsx(4,28): error TS2307: Cannot find module '@/components/themed-text' or its corresponding type declarations.
+TomprStamp/mobile/components/ui/collapsible.tsx(5,28): error TS2307: Cannot find module '@/components/themed-view' or its corresponding type declarations.
+TomprStamp/mobile/components/ui/collapsible.tsx(6,28): error TS2307: Cannot find module '@/components/ui/icon-symbol' or its corresponding type declarations.
+TomprStamp/mobile/components/ui/collapsible.tsx(7,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+TomprStamp/mobile/components/ui/collapsible.tsx(8,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/mobile/hooks/use-theme-color.ts(6,24): error TS2307: Cannot find module '@/constants/theme' or its corresponding type declarations.
+TomprStamp/mobile/hooks/use-theme-color.ts(7,32): error TS2307: Cannot find module '@/hooks/use-color-scheme' or its corresponding type declarations.
+TomprStamp/mobile/services/notificationService.ts(1,32): error TS2307: Cannot find module 'expo-notifications' or its corresponding type declarations.
+TomprStamp/mobile/services/notificationService.ts(2,25): error TS2307: Cannot find module 'expo-device' or its corresponding type declarations.
